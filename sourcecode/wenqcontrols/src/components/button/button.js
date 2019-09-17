@@ -10,7 +10,7 @@ import classnames from 'classname'
 export default class button extends Component {
     constructor(props) {
         super(props)
-    }
+    } 
 
     render() {
         let { style, className, caption, ...others }
