@@ -1,7 +1,10 @@
-/**
- *  按钮组件 
- *  author: wenq
- *  date: 2019年9月17日
+/*
+ * @Descripttion: 按钮组件
+ * @version: 
+ * @Author: wenq
+ * @Date: 2019-09-17
+ * @LastEditors: wenq
+ * @LastEditTime: 2019-09-18 20:12:38
  */
 import react, { Component } from 'react'
 import * as styles from 'button.css'
