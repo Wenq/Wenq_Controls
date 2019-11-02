@@ -4,13 +4,13 @@
  * @Author: wenq
  * @Date: 2019-09-17
  * @LastEditors: wenq
- * @LastEditTime: 2019-09-18 20:12:38
+ * @LastEditTime: 2019-11-02 16:40:15
  */
 import react, { Component } from 'react'
-import * as styles from 'button.css'
-import classnames from 'classname'
+import * as styles from 'Button.css'
+import classnames from 'classnames'
 
-export default class button extends Component {
+export default class Button extends Component {
     constructor(props) {
         super(props)
     } 

@@ -4,13 +4,13 @@
  * @Author: wenq
  * @Date: 2019-09-17
  * @LastEditors: wenq
- * @LastEditTime: 2019-09-18 20:12:57
+ * @LastEditTime: 2019-11-02 15:32:31
  */
 import react, { Component } from 'react'
-import * as styles from 'label.css'
-import classnames from 'classname'
+import * as styles from 'Label.css'
+import classnames from 'classnames'
 
-export default class label extends Component {
+export default class Label extends Component {
     constructor(props) {
         super(props)
     } 
