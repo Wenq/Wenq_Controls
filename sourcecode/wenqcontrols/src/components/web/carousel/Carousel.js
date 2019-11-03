@@ -4,10 +4,10 @@
  * @Author: wenq
  * @Date: 2019-11-02 15:26:57
  * @LastEditors: wenq
- * @LastEditTime: 2019-11-03 23:01:59
+ * @LastEditTime: 2019-11-03 23:13:48
  */
 import React, { Component } from 'react'
-import * as styles from './Carousel.css'
+import * as styles from './Carousel.less'
 import classnames from 'classnames'
 import {Map, List, fromJS} from 'immutable'
 
