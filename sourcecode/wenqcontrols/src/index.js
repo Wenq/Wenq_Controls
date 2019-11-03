@@ -4,7 +4,7 @@
  * @Author: wenq
  * @Date: 2019-08-24 23:06:39
  * @LastEditors: wenq
- * @LastEditTime: 2019-11-02 15:49:07
+ * @LastEditTime: 2019-11-03 22:59:37
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -21,4 +21,5 @@ import './index.css';
 
 //test Carousel
 import Carousel from './components/web/carousel/Carousel';
-ReactDOM.render(<Carousel />, document.getElementById('root'));
+import {getCarouselTestData} from './mock/mock_data'
+ReactDOM.render(<Carousel data={getCarouselTestData()} />, document.getElementById('root'));

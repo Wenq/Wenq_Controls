@@ -4,7 +4,7 @@
  * @Author: wenq
  * @Date: 2019-11-02 15:26:57
  * @LastEditors: wenq
- * @LastEditTime: 2019-11-03 19:01:47
+ * @LastEditTime: 2019-11-03 23:01:59
  */
 import React, { Component } from 'react'
 import * as styles from './Carousel.css'
@@ -23,7 +23,7 @@ export default class Carousel extends Component {
         data_custom = JSON.stringify(data_custom);
         return <div data-data_custom={data_custom} style={style} className={className} {...others}>
             <p>Carousel</p>
-            <CarouselFoatMenu className={'carousel-floatmenu'} />
+            <CarouselFoatMenu className={'carousel-floatmenu'} items={data}/>
         </div>
     }
 }
@@ -44,7 +44,7 @@ class CarouselFoatMenu extends Component {
         return <ul style={style} className={classnames('carouselfloatmenu', className)}>
             {
                 items && items.map((item, index) => {
-                    return <li className={'floatitem'}>{index}</li>
+                    return <li key={index} className={'floatitem'}>{item.get('id')}</li>
                 })
             }
         </ul>

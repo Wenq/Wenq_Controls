@@ -1,5 +1,19 @@
 .carousel {
+    position: relative;
     width: 500px;
     height: 300px;
     border: 1px solid red;
+}
+
+.carouselfloatmenu {
+    position: absolute;
+    display: flex;
+    border: 1px solid blue;
+    list-style: none;
+    bottom: 20px;
+    margin: auto;
+}
+
+.floatitem {
+    display: flex;
 }
